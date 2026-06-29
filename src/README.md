@@ -65,8 +65,8 @@ DB_PASSWORD=
 Mở Command Prompt/PowerShell tại thư mục dự án:
 
 **Mở terminal trong thư mục chứa code (VScode hoặc Kiro,...), sau đó chạy 2 lệnh sau**  
-cd Sourcecode\vinhlong-food-reco
- 
+cd src\Source_code\vinhlong-food-reco
+
 php -S localhost:8000 -t public
 
 Output mong đợi:
