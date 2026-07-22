@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th7 07, 2026 lúc 04:28 AM
+-- Thời gian đã tạo: Th7 22, 2026 lúc 03:34 PM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.2.12
 
@@ -863,18 +863,18 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `avatar`, `role`, `created_at`, `updated_at`, `username`, `phone`, `address`, `birthDate`, `gender`, `status`, `admin_code`) VALUES
 (1, 'Test User 88', 'test88@test.com', '$2y$12$FM1od9oSdQUcuVdk4nnqRebT4oWQyyQkanr0/kTg0KPJJOooWszxW', NULL, 'user', '2026-07-04 09:19:01', '2026-07-04 09:19:01', 'testuser88', '0901234567', 'Vinh Long', '', 'male', 'active', NULL),
 (2, 'Chu Diem', 'biz1@test.com', '$2y$12$0HL019z54cm0zR.cbSHdie5yXUt2Hi.frWNnFRBLksW.lNQcgJ8Mm', NULL, '', '2026-07-04 09:20:53', '2026-07-04 09:20:53', 'bizowner1', '', '', '', 'female', 'active', NULL),
-(3, 'Long Ho', 'sotkthu1@gmail.com', '$2y$12$smIZPlLH0G2sHxqiC7eHBeaXeRN2PVgnG3VIjJkCaZWYwJQCHkr.i', NULL, 'user', '2026-07-04 09:23:02', '2026-07-07 02:20:28', 'long123', '', '', '2003-01-04', 'male', 'active', NULL),
+(3, 'Long Ho', 'sotkthu1@gmail.com', '$2y$12$smIZPlLH0G2sHxqiC7eHBeaXeRN2PVgnG3VIjJkCaZWYwJQCHkr.i', NULL, 'user', '2026-07-04 09:23:02', '2026-07-16 08:25:59', 'long123', '', '', '2003-01-04', 'male', 'active', NULL),
 (4, 'pham nhat', 'nhatteotv@gmail.com', '$2y$12$PpMmnAaiXK4alYbalSYuL.o30IxnCZkcwPNut.7r1H4kB.1tM3heC', NULL, '', '2026-07-04 23:59:32', '2026-07-04 23:59:32', 'nhatteo1', '', '', '2003-09-30', 'male', 'active', NULL),
-(5, 'Nguyễn Văn An', 'nguyenvanan@example.com', '$2y$12$gtsmjviQJ4LnHhhEmIoMn.iQxe.ZNiDSVgoWyHBzBNxrIB.CRlA2i', NULL, 'user', '2026-07-06 05:14:26', '2026-07-07 02:20:28', 'nguyenvanan', '0901234567', NULL, '', '', 'active', NULL),
-(6, 'Trần Thị Bình', 'tranthibinh@example.com', '$2y$12$hPigwL8sR2t31A5pEpoQd.KNUQGTliIYzEdr6nwzN/0WByknSwgES', NULL, 'user', '2026-07-06 05:14:27', '2026-07-07 02:20:28', 'tranthibinh', '0912345678', NULL, '', '', 'active', NULL),
-(7, 'Lê Văn Cường', 'levancuong@example.com', '$2y$12$TsAUEhfr6E52FBWVfFqoAOOd5tBveSxmicztb4eZteZfdXJs4l/Ci', NULL, 'user', '2026-07-06 05:14:27', '2026-07-07 02:20:28', 'levancuong', '0923456789', NULL, '', '', 'active', NULL),
-(8, 'Phạm Thị Dung', 'phamthidung@example.com', '$2y$12$y1RL83fA4Tf46WbDcHp.juJEl61soaS5crpM4rmiMTrA2sLQNcs8m', NULL, 'user', '2026-07-06 05:14:28', '2026-07-07 02:20:28', 'phamthidung', '0934567890', NULL, '', '', 'active', NULL),
-(9, 'Hoàng Văn Em', 'hoangvanem@example.com', '$2y$12$kDjtVZEwimb9dGI0EaAw4em4lg3mqyOu.BlxmKAwjoYpgwaKgaJgK', NULL, 'user', '2026-07-06 05:14:28', '2026-07-07 02:20:28', 'hoangvanem', '0945678901', NULL, '', '', 'active', NULL),
-(10, 'Võ Thị Phương', 'vothiphuong@example.com', '$2y$12$ZrDwSjJ451cepq1drV/0QesT3vQAC8AQH55Amr6TuQK9KcrYXCbKC', NULL, 'user', '2026-07-06 05:14:29', '2026-07-07 02:20:28', 'vothiphuong', '0956789012', NULL, '', '', 'inactive', NULL),
-(11, 'Đặng Văn Giang', 'dangvangiang@example.com', '$2y$12$4ubQMQy3pzChGmbpW6VCKu26q.RD.vdOcFyv8ZoQ5hY0127iBaHba', NULL, 'user', '2026-07-06 05:14:29', '2026-07-07 02:20:28', 'dangvangiang', '0967890123', NULL, '', '', 'active', NULL),
-(12, 'Nhat User', 'nhat1234@vinhlong.com', '$2y$12$AgPRndE5MXEUld8dmZPT5.kT3UmcXsMpvncZNgekdoPejUeNluCc2', NULL, '', '2026-07-06 05:14:30', '2026-07-07 02:20:28', 'nhat1234', '', NULL, '', '', 'active', NULL),
-(13, 'Quản trị viên', 'admin@vinhlong.com', '$2y$12$oIRxZIa33iAhfk593nd42u8EUujPd20WNuwTOC/ge9vz0LAnirkbi', NULL, 'admin', '2026-07-06 05:14:30', '2026-07-07 02:20:28', 'admin123', 'N/A', NULL, '', '', 'active', '1A'),
-(14, 'nhat123', 'nhatphamminh683@gmail.com', '$2y$12$mq/H1aDd7yAvyWbhxOm1KuT3jvKh3vMTTrmgRVKCYyL9vRQ2ZQl5q', NULL, '', '2026-07-06 12:46:36', '2026-07-07 02:20:28', 'nhat123', '', NULL, '', 'male', 'active', NULL);
+(5, 'Nguyễn Văn An', 'nguyenvanan@example.com', '$2y$12$gtsmjviQJ4LnHhhEmIoMn.iQxe.ZNiDSVgoWyHBzBNxrIB.CRlA2i', NULL, 'user', '2026-07-06 05:14:26', '2026-07-16 08:25:59', 'nguyenvanan', '0901234567', NULL, '', '', 'active', NULL),
+(6, 'Trần Thị Bình', 'tranthibinh@example.com', '$2y$12$hPigwL8sR2t31A5pEpoQd.KNUQGTliIYzEdr6nwzN/0WByknSwgES', NULL, 'user', '2026-07-06 05:14:27', '2026-07-16 08:25:59', 'tranthibinh', '0912345678', NULL, '', '', 'active', NULL),
+(7, 'Lê Văn Cường', 'levancuong@example.com', '$2y$12$TsAUEhfr6E52FBWVfFqoAOOd5tBveSxmicztb4eZteZfdXJs4l/Ci', NULL, 'user', '2026-07-06 05:14:27', '2026-07-16 08:25:59', 'levancuong', '0923456789', NULL, '', '', 'active', NULL),
+(8, 'Phạm Thị Dung', 'phamthidung@example.com', '$2y$12$y1RL83fA4Tf46WbDcHp.juJEl61soaS5crpM4rmiMTrA2sLQNcs8m', '/images/avatars/1784190380_8.jpg', 'user', '2026-07-06 05:14:28', '2026-07-16 08:26:20', 'phamthidung', '0934567890', NULL, '', '', 'active', NULL),
+(9, 'Hoàng Văn Em', 'hoangvanem@example.com', '$2y$12$kDjtVZEwimb9dGI0EaAw4em4lg3mqyOu.BlxmKAwjoYpgwaKgaJgK', NULL, 'user', '2026-07-06 05:14:28', '2026-07-16 08:25:59', 'hoangvanem', '0945678901', NULL, '', '', 'active', NULL),
+(10, 'Võ Thị Phương', 'vothiphuong@example.com', '$2y$12$ZrDwSjJ451cepq1drV/0QesT3vQAC8AQH55Amr6TuQK9KcrYXCbKC', NULL, 'user', '2026-07-06 05:14:29', '2026-07-16 08:25:59', 'vothiphuong', '0956789012', NULL, '', '', 'inactive', NULL),
+(11, 'Đặng Văn Giang', 'dangvangiang@example.com', '$2y$12$4ubQMQy3pzChGmbpW6VCKu26q.RD.vdOcFyv8ZoQ5hY0127iBaHba', NULL, 'user', '2026-07-06 05:14:29', '2026-07-16 08:25:59', 'dangvangiang', '0967890123', NULL, '', '', 'active', NULL),
+(12, 'Nhat User', 'nhat1234@vinhlong.com', '$2y$12$AgPRndE5MXEUld8dmZPT5.kT3UmcXsMpvncZNgekdoPejUeNluCc2', '/images/avatars/1784190192_12.jpg', '', '2026-07-06 05:14:30', '2026-07-16 08:25:59', 'nhat1234', '', NULL, '', '', 'active', NULL),
+(13, 'Quản trị viên', 'admin@vinhlong.com', '$2y$12$oIRxZIa33iAhfk593nd42u8EUujPd20WNuwTOC/ge9vz0LAnirkbi', NULL, 'admin', '2026-07-06 05:14:30', '2026-07-16 08:25:59', 'admin123', 'N/A', NULL, '', '', 'active', '1A'),
+(14, 'nhat123', 'nhatphamminh683@gmail.com', '$2y$12$mq/H1aDd7yAvyWbhxOm1KuT3jvKh3vMTTrmgRVKCYyL9vRQ2ZQl5q', NULL, '', '2026-07-06 12:46:36', '2026-07-16 08:25:59', 'nhat123', '', NULL, '', 'male', 'active', NULL);
 
 -- --------------------------------------------------------
 
